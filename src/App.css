@@ -1,11 +1,16 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +18,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +26,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  background-color: #282c34;
+  
+}
+
+#snow{
+  position: fixed;
+  top:0;
+  margin-left: -190px;
+  
+}
+
+h1, h2, p{
+  color: aliceblue;
+ 
+}
+
+span{
+  color: orange;
+  font-size: x-large;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.whoIam{
+  position: absolute;
+  right: 0;
+  margin-right: 600px;
+  margin-bottom: 50px;
 }

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h2{
+    font-family: 'Press Start 2P', cursive;
+}
+
+@keyframes Blinker{
+    50%{
+        opacity: 0;
+    }
+}
+
+span{
+    animation: Blinker 1s linear infinite;
+}
+
+.styl{
+    background-color: #10101096;
+    padding: 10px;
+   }
